@@ -12,7 +12,8 @@ end
 
 def are_they_correct?(number)
   user_prompt
-  guess = user_input.to_i
+  guess = user_input
+  guess.to_i
   if guess == "exit"
     puts "Goodbye!"
   elsif guess != number && guess != "exit"
