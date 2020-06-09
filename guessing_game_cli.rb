@@ -15,9 +15,9 @@ def are_they_correct?(number)
   guess = user_input
   if guess == "exit"
     puts "Goodbye!"
-  elsif guess.to_i != number && guess != "exit"
+  elsif guess != number && guess != "exit"
     puts "Sorry! The computer guessed #{number}."
-  else guess.to_i == number
+  else guess == number
     puts "You guessed the correct number!"
   end
 end
