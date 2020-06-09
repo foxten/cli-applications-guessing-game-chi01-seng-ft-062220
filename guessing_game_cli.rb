@@ -18,8 +18,8 @@ def are_they_correct?(number)
   elsif guess != number && guess != "exit"
     puts "Sorry! The computer guessed #{number}."
   else guess == number
-  puts "You guessed the correct number!"
-end
+    puts "You guessed the correct number!"
+  end
 end
 
 def run_guessing_game
