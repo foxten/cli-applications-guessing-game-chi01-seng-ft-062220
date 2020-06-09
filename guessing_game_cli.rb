@@ -23,6 +23,6 @@ def are_they_correct?(number)
 end
 
 def run_guessing_game
-  number = 4
+  number = random_number
   are_they_correct?(number)
 end
